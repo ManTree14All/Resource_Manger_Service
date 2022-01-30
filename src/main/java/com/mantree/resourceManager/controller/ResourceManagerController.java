@@ -12,6 +12,6 @@ public class ResourceManagerController {
 	
 	@GetMapping ("/test")
 	private String check() {
-		return "working";
+		return "working now!";
 	}
 }
